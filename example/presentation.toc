@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Basic Beamer Functionality}{3}{0}{1}
+\beamer@sectionintoc {2}{Mathematics}{9}{0}{2}
+\beamer@sectionintoc {3}{Linguistics}{13}{0}{3}
