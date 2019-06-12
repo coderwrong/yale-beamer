@@ -19,7 +19,7 @@ See the following tutorials for more information: [installing Beamer themes in M
 ## MikTeX (Windows)
 
 Please complete the following steps.
-* Place all the files in this repository except for README.md and the example subdirectory directly in the following directory: C:\Program Files\<MikTeX Root>\tex\latex\beamer\base\themes
+* Place all the files in this repository except for README.md and the example subdirectory directly in the following directory: C:\Program Files\\<MikTeX Root\>\tex\latex\beamer\base\themes
 * Close all applications that use MikTeX files (editors, MikTeX utilities, etc.).
 * Open the MikTeX Console.
 * Open the Tasks menu and click Refresh file name database.
