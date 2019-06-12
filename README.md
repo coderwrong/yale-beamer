@@ -66,8 +66,11 @@ Most of the text in your presentation will be set using the sans-serif font. Thi
     
 When typesetting phonetic characters, it may be helpful to define an environment in which your IPA font will be used.
 
+    \usepackage{fontspec}
     \newfontfamily{\ipa}{CMU Serif}
     
-The environment can be used in your text as follows.
+    \begin{document}
+        /{\ipa hɛˈloʊ ˈwɚld}/!
+    \end{document}
 
-    {\ipa hɛˈloʊ ˈwɚld}!
+    
