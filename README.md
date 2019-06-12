@@ -1,10 +1,10 @@
-yale-beamer
-===========
+Yale University Beamer Theme
+============================
 
-Yale University style for LaTeX Beamer. Forked from the University of Cambridge style.
+This is an unofficial LaTeX Beamer theme for individuals affiliated with Yale University, designed according to Yale's [visual identity guidelines](https://yaleidentity.yale.edu/). [Recommended proprietary fonts](https://yaleidentity.yale.edu/typefaces), including the [Yale typeface](https://yaleidentity.yale.edu/typeface/download-yale-typeface), are not included in this repository.
 
-Usage
-=====
+Installation
+============
 
 Put this folder into .../texmf/tex/latex/beamer/
 
