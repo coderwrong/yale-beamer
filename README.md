@@ -52,7 +52,7 @@ Most of the text in your presentation will be set using the sans-serif font. Thi
 
     \usepackage{mathspec}
     \setmainfont[Numbers=OldStyle]{YaleNew}
-    \setsansfont{TheSans}
+    \setsansfont{Mallory}
     \setmathfont{Computer Modern}
     \usefonttheme{professionalfonts}
     
