@@ -2,15 +2,14 @@
 \usetheme{yale}
 
 % Use the official Yale fonts with XeLaTeX
-\usepackage{fontspec}
+\usepackage{mathspec}
 \setmainfont[Numbers=OldStyle]{YaleNew}
-\setsansfont[
-BoldFont={TheSans B2 Bold},
-ItalicFont={TheSans B2 SemiLight Italic},
-SmallCapsFont={TheSans B4 Caps Regular}
-]{TheSans}
+\setsansfont{Mallory}
+\setmathfont{Computer Modern}
+\usefonttheme{professionalfonts}
 
-\newfontfamily{\tnr}{cmunrm.otf}
+% Use Computer Modern Unicode for IPA symbols
+\newfontfamily{\ipafont}{cmunrm.otf}
 
 % Automatically make slides that introduce sections
 \AtBeginSection{
@@ -174,15 +173,15 @@ SmallCapsFont={TheSans B4 Caps Regular}
 \end{frame}
 
 \begin{frame}{Optimality Theory}
-	If you use {\tnr \XeLaTeX}, you can just type IPA directly into the \texttt{.tex} source.
+	If you use {\ipafont \XeLaTeX}, you can just type IPA directly into the \texttt{.tex} source.
 	
 	\begin{center}
 		\begin{tableau}{c|c|c|c|c}
-			\inp{\tnr fʕal} \const{*Complex-Onset} \const{Max} \const{Id} \const{Onset} \const{Dep}
-			\cand{\tnr fʕal} \vio{*!} \vio{} \vio{} \vio{} \vio{}
-			\cand{\tnr ʕal} \vio{} \vio{*!} \vio{} \vio{} \vio{}
-			\cand{\tnr iʕal} \vio{} \vio{} \vio{*!} \vio{*} \vio{}
-			\cand[\Optimal]{\tnr ifʕal} \vio{} \vio{} \vio{} \vio{*} \vio{*}
+			\inp{\ipafont fʕal} \const{*Complex-Onset} \const{Max} \const{Id} \const{Onset} \const{Dep}
+			\cand{\ipafont fʕal} \vio{*!} \vio{} \vio{} \vio{} \vio{}
+			\cand{\ipafont ʕal} \vio{} \vio{*!} \vio{} \vio{} \vio{}
+			\cand{\ipafont iʕal} \vio{} \vio{} \vio{*!} \vio{*} \vio{}
+			\cand[\Optimal]{\ipafont ifʕal} \vio{} \vio{} \vio{} \vio{*} \vio{*}
 		\end{tableau}
 	\end{center}
 \end{frame}
