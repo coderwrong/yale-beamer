@@ -46,15 +46,7 @@ When using XeLaTeX, you can load the recommended fonts using fontspec. Use the n
 
     \usepackage{fontspec}
     \setmainfont[Numbers=OldStyle]{YaleNew}
-    \setsansfont{TheSans}
-    
-Depending on how your fonts are installed, you may need to load bold, italic, and small caps fonts individually.
-    
-    \setsansfont[
-        BoldFont={TheSans B2 Bold},
-        ItalicFont={TheSans B2 SemiLight Italic},
-        SmallCapsFont={TheSans B4 Caps Regular}
-    ]{TheSans}
+    \setsansfont{Mallory}
 
 Most of the text in your presentation will be set using the sans-serif font. This includes Latin-letter variable names in math mode, which will look different from numbers, Greek letters, and other math symbols. For greater consistency, you may choose to typeset all math symbols using the math font. You can do this by using mathspec instead of fontspec.
 
